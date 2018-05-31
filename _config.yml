@@ -18,7 +18,7 @@ title: rajudev राजुदेव
 email: rajudev@disroot.org
 description: " I speak my mind here"
 baseurl: # the optional subpath of your site, e.g. "/blog"
-url: "rajudev.gitlab.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "rajudev.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name: Raju Devidas
   twitter: rajuvindane
