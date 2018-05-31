@@ -1,0 +1,249 @@
+{
+  "basics": {
+    "name": "Raju Devidas",
+    "label": "System Administrator",
+    "picture": "",
+    "email": "rajudev@disroot.org",
+    "phone": "(+91) 9096331084",
+    "website": "http://rajudev.gitlab.io",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Nagpur",
+      "countryCode": "India",
+      "region": "Maharashtra"
+    },
+    "profiles": [
+      {
+        "network": "Docker Registry",
+        "username": "rajudev",
+        "url": "https://hub.docker.com/u/rajudev/"
+      },
+      {
+        "network": "Debian",
+        "username": "Contributions to Debian",
+        "url": "https://qa.debian.org/developer.php?login=rajudev@disroot.org"
+      },
+      {
+        "network": "Gitlab",
+        "username": "rajudev",
+        "url": "https://gitlab.com/rajudev/"
+      },
+      {
+        "network": "Github",
+        "username": "rajudev",
+        "url": "https://github.com/rajudev/"
+      },
+      {
+        "network": "Superuser(part of stackexchange)",
+        "username": "raju-devidas",
+        "url": "https://superuser.com/users/310625/raju-devidas"
+      },
+      {
+        "network": "Quora",
+        "username": "Raju-Vindane",
+        "url": "https://www.quora.com/profile/Raju-Vindane"
+      },
+      {
+        "network": "Twitter",
+        "username": "rajuvindane",
+        "url": "https://twitter.com/rajuvindane"
+      },
+      {
+        "network": "Mastodon",
+        "username": "rajudev",
+        "url": "https://mastodon.rocks/@rajudev"
+      },
+      {
+        "network": "Diaspora",
+        "username": "rajudev",
+        "url": "https://joindiaspora.com/people/f5a684611c9f60f5"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Techblue Software",
+      "position": "Linux System Administrator",
+      "website": "http://www.techbluesoftware.co.in/",
+      "startDate": "2017-07-03",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Is involved in the development of the Hamara Linux Project, especially in the releases of Hamara Sugam, a Debian based light weight distribution for low resource computers.",
+        "Is involved in the development of the various components of Hamara Linux specifically the operating system installer.",
+        "Did various POCs on softwares such Apache CouchDB, Deepstream, Ionic App development etc.",
+        "Have handled websites hosted on Openstack"
+      ]
+    },
+    {
+      "company": "Techblue Software",
+      "position": "Intern",
+      "website": "http://www.techbluesoftware.co.in/",
+      "startDate": "2015-06-01",
+      "endDate": "2017-5-01",
+      "summary": "",
+      "highlights": [
+        "Was involved in the development of the Hamara Linux Project.",
+        "As part of contributing to Hamaralinux.org, I was also involved in promoting Hamara Linux at multiple places including many conferences and events, as well as Colleges and Institutions.",
+        "Promoted Hamara Linux as a speaker at multiple conferences, events, meetups etc."
+      ]
+    },
+    {
+      "company": "Fizzible.com",
+      "position": "Linux Trainer / System Administrator",
+      "website": "http://fizzible.com",
+      "startDate": "2014-6-01",
+      "endDate": "2015-5-30",
+      "summary": "Fizzible.com is an online e-commerce store for industrial electronic equipments and components. It also does Industrial training on Technologies such as Embedded electronics such as Arduino's and Single Board computers, Linux etc. It has won many awards at various B-Plan presentation events.",
+      "highlights": [
+        "Was involved in maintaining the network infrastructure and most System Administration activities.",
+        "Was also the main trainer for many of the day long Linux Training workshops and some Embedded Linux training sessions",
+        "Gained some business ensight due to the continous interaction with clients from different sectors."
+      ]
+    }
+  ],
+  "volunteer": [
+  	    {
+  	      "organization": "Debian",
+  	      "position": "Contributor",
+  	      "website": "https://www.debian.org",
+  	      "startDate": "2013-01-01",
+  	      "endDate": "",
+  	      "summary": "Debian is an operating system for your computer. The Debian project is one of the oldest and strongest operating system project.",
+  	      "highlights": [
+  	        "I am contributing as a software packager for Debian, packaging a lot of nodejs, golang & Ruby modules. More details on my Debian QA profile link here https://qa.debian.org/developer.php?login=rajudev@disroot.org and https://qa.debian.org/developer.php?login=rajuvindane@gmail.com",
+		    "Currently I am involved in packaging of the micro text editor, a simple text editor as an alternative to vim/nano. https://micro-editor.github.io",
+		    "As part of the Debian Ruby Team I am involved in maintenance of the Diaspora Installer, a package which makes installing a diaspora server easy.",
+  	        "I have given talks, conducted workshops and training sessions at various conferences, meetups and events.",
+  	      	"Organizer of the Pune Debian Users Group Meetup group.It has over 450 members at the moment. Have conducted multiple events under Pune Debian Users Group.",
+		    "Has helped organize 'Mini Debian Conference Pune 2016' at College of Engineering Pune. I have also volunteered in organizing multiple other mini Debian conferences and meetups"
+		  ]
+  	    },
+  	   	{
+  	      	      "organization": "Hamara Linux",
+  	      	      "position": "Contributor/Intern/Developer",
+  	      	      "website": "https://www.hamaralinux.org",
+  	      	      "startDate": "2015-01-01",
+  	      	      "endDate": "",
+  	      	      "summary": "Hamara Linux is an Operating system made in India by a wide community of people, realizing the true meaning of Make in India",
+  	      	      "highlights": [
+  	      	        "Interned with Hamara Linux project previously, now a core developer of the Hamara Linux project.",
+  	      	        "Was involved in the development of Hamara Sugam Beta Release.",
+  	      	        "Is involved in various aspects of the operating system such as interface, installer, repository management, ISO builds etc.",
+  	      	        "Has given talks promoting usage and development of Hamara Linux at multiple conferences, meetups and events."
+  	    		]
+     	}
+  	    
+  ],
+  "education": [
+    {
+      "institution": "Online Courses",
+      "area": "",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "",
+      "gpa": "",
+      "courses": [
+        "Coursera.org - Introduction to the Internet of Things and Embedded Systems (audited)",
+        "Coursera.org - The Arduino platform and C Programming(audited)",
+        "Codecademy.com - Learn the Command Line(completed)",
+        "Sololearn.com - HTML Fundamentals , C++ Tutorial (with certificates)"
+      ]
+    },
+    {
+      "institution": "Dhole Patil College of Engineering, Pune",
+      "area": "Information Technology",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2011-06-01",
+      "endDate": "2017-01-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Baburao Tidke Polytechnic, Nagpur",
+      "area": "Information Technology",
+      "studyType": "Diploma in Engineering",
+      "startDate": "2008-06-01",
+      "endDate": "2011-04-01",
+      "gpa": "69.75",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Virtualization",
+      "level": "Beginner to Intermediate",
+      "keywords": [
+        "Docker",
+        "KVM",
+        "QEMU",
+        "Openstack"
+      ]
+    },
+    {
+      "name": "Continuous Integration",
+      "level": "Intermediate",
+      "keywords": [
+        "Gitlab CI",
+        "Jenkins"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "Beginner",
+      "keywords": [
+        "Python",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Scripting",
+      "level": "Intermediate",
+      "keywords": [
+        "Bash"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Beginner to Intermediate",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Jekyll"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "Beginner",
+      "keywords": [
+        "Ionicframework"
+      ]
+    },
+    {
+      "name": "Embedded and Robotics",
+      "level": "Intermediate",
+      "keywords": [
+        "Arduino",
+        "Raspberry Pi",
+        "Beaglebone",
+        "other single board computers"
+      ]
+    },
+    {
+      "name": "Software Packaging",
+      "level": "Beginner",
+      "keywords": [
+        "Debian Packaging(.deb packaging) of Ruby, JS and Go modules",
+	"Packaging for Debian derivatives including Ubuntu"
+      ]
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": []
+}
