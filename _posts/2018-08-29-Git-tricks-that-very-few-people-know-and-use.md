@@ -20,8 +20,8 @@ management systems.
 
 But recently I decided to dive deep and finish one of the tasks in my bucket list, 
 i.e mastering git in depth.
-I planned to do this by reading the `Pro Git` book written by `Scott Chacon` & 
-`Ben Straub`. 
+I planned to do this by reading the *Pro Git* book written by *Scott Chacon* & 
+*Ben Straub*. 
 The book is available to read online at [git-scm.com](https://git-scm.com/book/en/v2)
 
 In this blog post I will be writing the facts and tricks I learned from the book.
@@ -56,9 +56,9 @@ Example
 $ git clone https://github.com/libgit2/libgit2 mylibgit
 ```
 
-## 3. Apart from the usual `git://` and `https://` protocols git can also clone a repo from another computer.
+## 3. Apart from the usual *git://* and *https://* protocols git can also clone a repo from another computer.
 Git has a number of different transfer protocols you can use. Most people 
-use `https://`  or `git://` , but you can also clone repos from another machine. 
+use *https://*  or *git://* , but you can also clone repos from another machine. 
 
 ```sh
 $ git clone user@server:path/to/repo.git
@@ -68,7 +68,7 @@ This uses the SSH transfer protocol.
 ## 4. Short Git status
 While the git status output is pretty comprehensive, it’s also quite wordy.
 Git also has a short status flag so you can see your changes in a more compact way. 
-If you run `git status -s` or `git status --short` you get a far more simplified output from the command:
+If you run *git status -s* or *git status --short* you get a far more simplified output from the command:
 ```sh
 $ git status -s
  M README
@@ -77,8 +77,8 @@ A  lib/git.rb
 M  lib/simplegit.rb
 ?? LICENSE.txt
 ```
-New files that aren’t tracked have a `??` next to them, new files that have been 
-added to the staging area have an `A`, modified files have an `M` and so on.
+New files that aren’t tracked have a *??** next to them, new files that have been 
+added to the staging area have an *A*, modified files have an *M* and so on.
 
 ## 5. 
 
