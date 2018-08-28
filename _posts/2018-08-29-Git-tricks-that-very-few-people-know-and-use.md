@@ -86,10 +86,13 @@ By default, with no arguments, **_git log_** lists the commits made in that repo
 in reverse chronological order. A huge number and variety of options to the git log
 command are available to show you exactly what you’re looking for. 
 Here, I'll show some of the most useful ones.
+
   1. **_git log --patch_** or **_git log -p_**
+  
   Shows the difference (the patch output) introduced in each commit.
   You can also limit the number of log entries to be displayed by supplying
-  the number in front of the command, such as **_git log --patch -2**
+  the number in front of the command, such as **_git log --patch -2_**
+  
   ```sh
   $ git log -p -2
   commit ca82a6dff817ec66f44342007202690a93763949
@@ -132,8 +135,11 @@ Here, I'll show some of the most useful ones.
   -  puts git.show
   -end
   ```
+  
   2. **_git log --stat_**
+  
    If you want to see some abbreviated stats for each commit, you can use the **_--stat_** option:
+   
    ```sh
    $ git log --stat
    commit ca82a6dff817ec66f44342007202690a93763949
@@ -166,6 +172,7 @@ Here, I'll show some of the most useful ones.
    lib/simplegit.rb | 25 +++++++++++++++++++++++++
    3 files changed, 54 insertions(+)
    ```
+
 
 ## 6. 
 
