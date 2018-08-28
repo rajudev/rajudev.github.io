@@ -1,5 +1,5 @@
 ---
-title: "Viewing-saved-wifi-passwords-from-terminal"
+title: "Viewing saved wifi passwords from terminal"
 categories:
   - Markdown
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Awesome-Git-facts-and-tricks"
+title: "Awesome Git facts and tricks: Notes from the Pro Git book"
 categories:
   - Markdown
 tags:
@@ -27,7 +27,7 @@ The book is available to read online at [git-scm.com](https://git-scm.com/book/e
 In this blog post I will be writing the facts and tricks I learned from the book
 Following are my discoveries.
 
-# 1. The checksum that we see in git commits is 40 hexadecimal characters
+## 1. The checksum that we see in git commits is 40 hexadecimal characters
 The mechanism that Git uses for this checksumming is called a SHA-1 hash. 
 This is a 40-character string composed of hexadecimal characters (0–9 and a–f) 
 and calculated based on the contents of a file or directory structure in Git. 
@@ -38,7 +38,7 @@ A SHA-1 hash looks something like this:
 ```
 You will see these hash values all over the place in Git because it uses them so much. In fact, Git stores everything in its database not by file name but by the hash value of its contents.
 
-# 2. You can clone a git repository under a different folder name
+## 2. You can clone a git repository under a different folder name
 
 If you want to clone the git repository into a directory named something other 
 than what the repository name uses, you can specify the new directory name as
@@ -54,5 +54,5 @@ Example
 $ git clone https://github.com/libgit2/libgit2 mylibgit
 ```
 
-# 3. 
-# 4.
+## 3. 
+## 4.
