@@ -11,6 +11,8 @@ tags:
 last_modified_at: 2018-01-24T12:25:10-05:00
 ---
 
+## Note: This post is a Work in progress. 
+
 To-do: Building any Debian package using gitlab-ci and in the process learn how gitlab-ci works.
 
 Pre-Requisites: basic knowledge of git, software packaging in general and Debian packaging in particular, 
@@ -38,6 +40,16 @@ If the source code for the debian package is not present on gitlab.com, you can 
 gitlab.com importing the other project using its git url. 
 
 <img src="/assets/images/projectImportonGitlab.png" alt="git project import on gitlab"/>
+
+
+
+
+
+
+
+
+
+
 
 
 
