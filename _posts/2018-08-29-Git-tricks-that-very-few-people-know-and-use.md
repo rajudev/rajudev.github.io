@@ -1,4 +1,3 @@
-
 ---
 title: "Awesome-Git-facts-and-tricks"
 categories:
