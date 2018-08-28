@@ -136,6 +136,7 @@ Here, I'll show some of the most useful ones.
   -end
   ```
   
+  
   2. **_git log --stat_**
   
    If you want to see some abbreviated stats for each commit, you can use the **_--stat_** option:
@@ -172,9 +173,25 @@ Here, I'll show some of the most useful ones.
    lib/simplegit.rb | 25 +++++++++++++++++++++++++
    3 files changed, 54 insertions(+)
    ```
-
-
-## 6. 
+   
+   3. **_git log --pretty=oneline_**
+   
+   This option changes the log output to formats other than the default. 
+   A few prebuilt options are available for you to use. The oneline option prints each
+   commit on a single line, which is useful if you’re looking at a lot of commits. 
+   In addition, the **short**, **full**, and **fuller** options show the output 
+   in roughly the same format but with less or more information, respectively:
+   
+   ```sh
+   $ git log --pretty=oneline
+   ca82a6dff817ec66f44342007202690a93763949 changed the version number
+   085bb3bcb608e1e8451d4b2432f8ecbe6306e7e7 removed unnecessary test
+   a11bef06a3f659402fe7563abf99ad00de2209e6 first commit
+   ```
+   
+   4. 
+   
+## 6. **_** 
 
 ## 7. 
 
