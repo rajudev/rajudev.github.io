@@ -26,11 +26,23 @@ author:
 twitter_username: Towlette_Pettetucci
 github_username: Towlette_Pettetucci
 logo: /assets/icons/basically-basic-logo-light.svg
+search: true
+search_full_content: true
+search_provider: algolia
+algolia:
+  application_id: QB6HVGBSBA
+  index_name: basically-basic
+  search_only_api_key: 9d5014e5bbc77372547bce778dfa5663
+  powered_by: # true (default), false
+
+# Liquid
+liquid:
+  error_mode: strict
 
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-basically-basic
-gems:
+plugins: # previously gems
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -54,12 +66,25 @@ paginate_path: /page:num/
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+
 # Front Matter Defaults
 defaults:
   # _posts
   - scope:
       path: "_posts"
       type: posts
+    values:
+      layout: post
+      read_time: true
+  # _recipes
+  - scope:
+      path: "_recipes"
+      type: recipes
     values:
       layout: post
       read_time: true

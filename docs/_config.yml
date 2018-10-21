@@ -5,6 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+remote_theme: "mmistakes/jekyll-theme-basically-basic"
+
 # Site Settings
 lang: en-US
 title: Basically Basic
@@ -23,6 +25,14 @@ logo: /assets/icons/basically-basic-logo-light.svg
 google_analytics: UA-2011187-6
 disqus:
   shortname: basically-basic-theme
+search: true
+search_full_content: true
+search_provider: lunr
+algolia:
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 
 # Conversion
 markdown: kramdown
@@ -51,11 +61,12 @@ permalink: /:categories/:title/
 timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
-gems:
+plugins: # previously gems
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-remote-theme
 
 # Jekyll Feed
 feed:
@@ -77,12 +88,25 @@ paginate_path: /page:num/
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# Collections
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+
 # Front Matter Defaults
 defaults:
   # _posts
   - scope:
       path: "_posts"
       type: posts
+    values:
+      layout: post
+      read_time: true
+  # _recipes
+  - scope:
+      path: "_recipes"
+      type: recipes
     values:
       layout: post
       read_time: true
