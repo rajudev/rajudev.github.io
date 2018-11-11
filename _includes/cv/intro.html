@@ -6,23 +6,24 @@
         <p class="intro-subtitle">{{ cv.basics.label | markdownify | remove: '<p>' | remove: '</p>' }}</p>
       {% endif %}
 
-
       {% if page.actions %}
         <ul class="intro-actions">
-          {% for action in page.actions %}
-           <!-- Button for HTML -->
-          <li>
+            {% for action in page.actions %}
+            <!-- Button for HTML -->
+            <li>
                 <a href="/assets/customhtmls/rajudev-resume-stack.html" class="btn">
-                    {% if action.icon %}
-                        <span class="icon">
-                          <!-- {% include {{ action.icon | prepend: 'icon-' | append: '.svg' }} %} -->
+                {% if action.icon %}
+                    <span class="icon">
+                        <!-- {% include {{ action.icon | prepend: 'icon-' | append: '.svg' }} %} -->
                         </span>
-                    {% endif %}
-                    View another HTML version of the resume
-                </a>
-            </li>
-            <!-- Button for PDF -->
-            <li><a href="{{ action.url }}" class="btn">{% if action.icon %}<span class="icon">{% include {{ action.icon | prepend: 'icon-' | append: '.svg' }} %}</span>{% endif %}{{ action.label }}</a></li>
+                        {% endif %}
+                        View another HTML version of the resume
+                        </a>
+                        </li>
+                        <!-- Button for PDF -->
+                        <li><a href="{{ action.url }}" class="btn">{% if action.icon %}<span class="icon">{% include {{ action.icon | prepend: 'icon-' | append: '.svg' }} %}</span>{% endif %}{{ action.label }}</a></li>
+
+                        <!-- <li><a href="{{ action.url }}" class="btn">{% if action.icon %}<span class="icon">{% include {{ action.icon | prepend: 'icon-' | append: '.svg' }} %}</span>{% endif %}{{ action.label }}</a></li> -->
           {% endfor %}
         </ul>
       {% endif %}
