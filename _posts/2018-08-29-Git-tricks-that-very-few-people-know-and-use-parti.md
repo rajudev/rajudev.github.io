@@ -1,5 +1,5 @@
 ---
-title: "Awesome Git facts and tricks: Notes from the Pro Git book"
+title: "Awesome Git facts and tricks: Notes from the Pro Git book - Part I"
 categories:
   - Markdown
 tags:
@@ -11,7 +11,6 @@ tags:
   - awesome
 last_modified_at: 2018-08-29T12:25:10-05:00
 ---
-**_NOTE: This post is a work in progress_**
 
 ### Overview
 I have been using git for a while now in my workflow. I find my self proficient
@@ -87,7 +86,7 @@ in reverse chronological order. A huge number and variety of options to the git 
 command are available to show you exactly what you’re looking for. 
 Here, I'll show some of the most useful ones.
 
-  1. **_git log --patch_** or **_git log -p_**
+1 . **_`git log --patch`_** or **_`git log -p`_**
   
   Shows the difference (the patch output) introduced in each commit.
   You can also limit the number of log entries to be displayed by supplying
@@ -100,7 +99,7 @@ Here, I'll show some of the most useful ones.
   Date:   Mon Mar 17 21:52:11 2008 -0700
 
       changed the version number
-
+p
   diff --git a/Rakefile b/Rakefile
   index a874b73..8f94139 100644
   --- a/Rakefile
@@ -137,9 +136,9 @@ Here, I'll show some of the most useful ones.
   ```
   
   
-  2. **_git log --stat_**
+2 . **_`git log --stat`_**
   
-   If you want to see some abbreviated stats for each commit, you can use the **_--stat_** option:
+   If you want to see some abbreviated stats for each commit, you can use the **_`--stat`_** option:
    
    ```sh
    $ git log --stat
@@ -174,7 +173,7 @@ Here, I'll show some of the most useful ones.
    3 files changed, 54 insertions(+)
    ```
    
-   3. **_git log --pretty=oneline_**
+3 . **_`git log --pretty=oneline`_**
    
    This option changes the log output to formats other than the default. 
    A few prebuilt options are available for you to use. The oneline option prints each
@@ -189,10 +188,8 @@ Here, I'll show some of the most useful ones.
    a11bef06a3f659402fe7563abf99ad00de2209e6 first commit
    ```
    
-   4. 
+   This would be a series of blog posts as I keep reading and discovering more
+   about git through the [Pro Git Book](https://git-scm.com/book/en/v2)
+   more awesome git tricks would be coming soon in the next part of this blog.
    
-## 6. **_** 
-
-## 7. 
-
-## 8. 
+   Till then, ciao!
