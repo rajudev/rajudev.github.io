@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 lang: en-US
 title: rajudev राजुदेव
+name: rajudev राजुदेव
 email: rajudev@disroot.org
 description: " I speak my mind here"
 baseurl: # the optional subpath of your site, e.g. "/blog"
@@ -88,3 +89,7 @@ defaults:
     values:
       layout: post
       read_time: true
+
+# Plugins
+plugins:
+  - jekyll-feed
