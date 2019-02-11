@@ -44,7 +44,74 @@ Here is a simple architecture diagram of a 2 node cluster setup.
 In the architecture diagram above I am using the terms `Leader` for the main node and `follower` for the sub domain node.
 Consider this similar to master and slave terminologies, I am avoiding those terminologies because of [this](https://bugs.python.org/issue34605)
 
-**Step I : Prepare the machines/Containers**
+### **Step I : Prepare the Machines/Containers**
 
 
 <img src="/assets/images/step-1-docker-containers-init.png" alt="Setting up containers"/>
+
+We are starting two Docker containers as you can see in the terminal. In the terminal on top we are creating the container for the leader node. 
+And in the second container we are starting the container for the follower node. 
+Break down of the commands entered are as follows. 
+
+```shell
+docker run -it --name="leader" -p 9990:9990 -p 8000:80 centos
+```
+
+**docker run** Run a docker container 
+
+**-it** In interactive mode and allocate a psedo tty to it.
+
+**--name="leader"** assign the name leader to it.
+
+**-p 9990:9990 -p 8000:80** expose the external host machines port 9990 to the containers internal 9990 port, similarly for the 8000 port number of the host to the 80 port number of the container. 
+
+**centos** the image name that we have to make the container of, in our case centos.
+
+
+```shell
+docker run -it --name="follower" -p 9991:9990 -p 8001:80 centos
+```
+
+In case of the second prompt we are creating the container for the follower that is slave node. Hence the name is different.
+
+Notice that we have incremented the host port numbers, as the port numbers will get used by the leader container, we will need different port numbers for the follower node. So in my case I have incremented the port numbers by 1.
+
+after executing the above commands you will have two containers one above another, ready for our implementation. 
+
+![Containers after starting up](/assets/images/step-1-docker-containers-started.png)
+
+
+For the duration of the tutorial, I will be executing commands for leader in the top terminal and the commands for the follower in the bottom terminal.
+
+Lets move to step II
+
+
+### **Step II - Preparing the machines, installing prerequisites**
+
+JBOSS requires a few softwares to work such as java. also we would require some softwares to work properly on the container such as a text editor, a network management tool etc. 
+Let install all these dependencies and required software. 
+
+Also note that, although CentOS uses yum as the package manager, as a personal preference I use `dnf` as the package manager. So lets first install dnf.
+
+We execute the following commands on both the leader and follower containers.
+
+```shell
+yum install dnf -y
+```
+
+After installing the dnf package manager, lets install other packages using dnf. 
+
+```shell
+dnf install java nano emacs sudo 
+```
+
+
+
+### **Step III - Download and configure JBOSS**
+
+### **Step IV - Run JBOSS**
+
+
+### **Step V - JBOSS Management Interface overview**
+
+
