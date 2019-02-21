@@ -93,7 +93,7 @@ Let install all these dependencies and required software.
 
 Also note that, although CentOS uses yum as the package manager, as a personal preference I use `dnf` as the package manager. So lets first install dnf.
 
-We execute the following commands on both the leader and follower containers.
+ppWe execute the following commands on both the leader and follower containers.
 
 ```shell
 yum install dnf -y
@@ -102,16 +102,64 @@ yum install dnf -y
 After installing the dnf package manager, lets install other packages using dnf. 
 
 ```shell
-dnf install java nano emacs sudo 
+dnf install java nano emacs sudo java unzip java-1.8.0-openjdk java-1.8.0-openjdk-devel openssh-clients -y
 ```
 
+Although we can do most stuff being a root user. I prefer not using the root user at all times.
+So lets add another user to the containers, make them administrators, set a password for them, and switch to that user. 
+
+**On leader **
+```shell
+adduser leader
+usermod -aG wheel leader
+passwd leader
+su leader
+```
+
+**On follower **
+
+```shell
+adduser follower
+usermod -aG wheel follower
+passwd follower
+su follower
+```
+
+### **Step III - Download JBOSS**
+
+Now lets download JBOSS setup on both of our containers.
+
+The JBoss EAP ZIP file is available from the Red Hat Customer Portal.
+
+###### Downloading the JBoss EAP ZIP File
+
+- Open a browser and log in to the Red Hat Customer Portal at https://access.redhat.com.
+- Click Downloads.
+- Click Red Hat JBoss Enterprise Application Platform in the Product Downloads list.
+- Select the correct JBoss EAP version from the Version drop-down menu.
+- Find Red Hat JBoss Enterprise Application Platform 7.x.x in the list and click the Download link.
+
+You might be required to sign up to the portal or do the `provide us some information shenanigans` before you could get access to the download. But you will reach to it anyways. Once you get the zip transfer them to the container using scp, or else once you get the link, download it directly inside the container using wget.
+
+###### Installing the Downloaded zipfile.
+
+Unzip the JBOSS zip
+```shell
+unzip jboss-eap-7.2.0.zip
+cd jboss-eap-7.2.0
+```
+after doing this my leader and follower terminals look like this.
+
+![](/assets/images/2019-02-14_18-17.png)
 
 
-### **Step III - Download and configure JBOSS**
-
-### **Step IV - Run JBOSS**
+###
 
 
-### **Step V - JBOSS Management Interface overview**
+
+### **Step V - Run JBOSS**
+
+
+### **Step VI - JBOSS Management Interface overview**
 
 
