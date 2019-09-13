@@ -5,7 +5,7 @@
     "picture": "",
     "email": "rajudev@disroot.org",
     "phone": "(+91) 9096331084",
-    "website": "http://rajudev.github.io",
+    "website": "http://raju.dev",
     "summary": "",
     "location": {
       "address": "",
@@ -47,13 +47,13 @@
       },
       {
         "network": "Twitter",
-        "username": "rajuvindane",
-        "url": "https://twitter.com/rajuvindane"
+        "username": "rajudev_",
+        "url": "https://twitter.com/rajudev_"
       },
       {
         "network": "Mastodon",
         "username": "rajudev",
-        "url": "https://mastodon.rocks/@rajudev"
+        "url": "https://social.tchncs.de/@rajudev"
       },
       {
         "network": "Diaspora",
