@@ -24,7 +24,7 @@ I planned to do this by reading the **_Pro Git_** book written by **_Scott Chaco
 The book is available to read online at [git-scm.com](https://git-scm.com/book/en/v2)
 
 In this blog post I will be writing the facts and tricks I learned from the book.
-Following are my discoveries.
+Following are my take aways from the book.
 
 ## 1. The checksum that we see in git commits is 40 hexadecimal characters
 The mechanism that Git uses for this checksumming is called a SHA-1 hash. 

@@ -20,7 +20,7 @@ I'll be explaining one of the ways to customise your terminal and give it a diff
 
 Powerline is a statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome, i3 and Qtile.
 
-Using Poweline you can transform your simple terminal which looks like this.
+Using Powerline you can transform your simple terminal which looks like this.
 
 <img src="/assets/images/simpleTerminal.png" alt="simple terminal"/>
 
@@ -35,7 +35,7 @@ Instructions to install and configure powerline on your systems
 
 **Install Powerline**
 
-On Debian or debian based distributions install the following packages.
+On Debian or Debian based distributions install the following packages.
 
 ```
 [sudo] apt install powerline fonts-powerline
