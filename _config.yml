@@ -15,16 +15,16 @@
 # in the templates via {{ site.myvariable }}.
 lang: en-US
 title: rajudev राजुदेव
-email: rajudev@disroot.org
+email: mail@raju.dev
 description: " Raju Devidas"
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: "raju.dev" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name: Raju Devidas
-  twitter: rajuvindane
+  twitter: rajudev_
   picture: /assets/images/profilePic.png
 
-twitter_username: rajuvindane
+twitter_username: rajudev_
 gitlab_username: rajudev
 github_username: rajudev
 stackoverflow_username: 3678155/rajudev/
